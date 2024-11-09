@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+GB+S:ital,wght@1,100..400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 80vw;
+}
+.navbar {
+    display: flex;
+    height: 67px;
+    font-family: "Inter", sans-serif;
+}
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+.section1 {
+    
+}
+.top-left {
+    width: 50%;
+    height: 50vh;
+}
+.top-right {
+    width: 50%;
+    height: 50vh;
+}
