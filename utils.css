@@ -21,8 +21,27 @@
     justify-content: center;
 }
 .font-bold {
-    font-weight: bold;
+    font-weight: 800;
 }
 .flex-col {
     flex-direction: column;
+}
+.my-1 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.px-2 {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.text-blue {
+    color: rgb(96, 96, 241);
+}
+.btn {
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(92, 92, 236);
 }
