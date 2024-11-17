@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 .container {
     max-width: 80vw;
@@ -10,6 +11,7 @@
     display: flex;
     height: 67px;
     font-family: "Inter", sans-serif;
+    font-weight: 500;
 }
 .navbar li {
     list-style: none;
@@ -19,14 +21,84 @@
     text-decoration: none;
     color: black;
 }
-.section1 {
-    
-}
+
 .top-left {
     width: 50%;
-    height: 50vh;
+    
 }
+
 .top-right {
+    
     width: 50%;
-    height: 50vh;
+    
+}
+.section1 {
+    max-height: 100vh;
+    
+}
+.section1 h1 {
+    font-size: 1.9rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.logo {
+    font-size: 1.4rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 430;
+}
+.dumbel  {
+    width: 289px;
+}
+.gym {
+    width: 466px;
+}
+.section2 h2 {
+    font-size: 2.5rem;
+}
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+}
+.box h2 {
+    font-size: 1.9rem;
+    padding: 13px 0;
+}
+.highlight {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box ul {
+    list-style: none;
+}
+.box ul li {
+    margin: 12px 2px;
+}
+.pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pro li{
+    list-style: none;
+    margin: 0 60px;
+}
+.section3 table {
+    
+    width: 100vw;
+}
+.section3 h2 {
+    font-size: 2.3rem;
+}
+.section3 {
+    padding-left: 63px;
+    padding-right: 63px;
 }
