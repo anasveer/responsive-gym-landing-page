@@ -21,6 +21,20 @@
     text-decoration: none;
     color: black;
 }
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    
+}
+.line {
+    width: 30px;
+    background-color: black;
+    height: 3px;
+    margin: 4px 4px;
+}
 
 .top-left {
     width: 50%;
@@ -40,6 +54,7 @@
     font-size: 1.9rem;
     font-family: "Inter", sans-serif;
     font-weight: 500;
+    color: rgba(226, 125, 9, 0.973);;
 }
 .logo {
     font-size: 1.4rem;
@@ -54,6 +69,7 @@
 }
 .section2 h2 {
     font-size: 2.5rem;
+    
 }
 .section2 p {
     padding: 0 8vw;
@@ -95,10 +111,57 @@
     
     width: 100vw;
 }
-.section3 h2 {
+.section3 h3 {
     font-size: 2.3rem;
+    font-family: "Inter", sans-serif;
 }
 .section3 {
     padding-left: 63px;
     padding-right: 63px;
+}
+footer {
+    margin-top: 100px;
+    padding: 23px;
+    text-align: center;
+}
+@media (max-width: 1162px) {
+    nav {
+        flex-direction: column;
+        transition: all 0.7s ease-in-out;
+    }
+    .logo {
+        justify-content: center;
+        transition: all 0.7s ease-in-out;
+    }
+    .navbar {
+        flex-direction: column;
+        height: 179px;
+        text-align: center;
+        transition: all 0.7s ease-in-out;
+    }
+    .navbar li {
+        margin-top: 6px;
+        padding: 4px 0;
+    }
+    .burger {
+        display: block;
+    }
+    .nav-resp {
+        opacity: 0;
+    }
+    .nav-h {
+        height: 72px;
+    }
+    .gym {
+        display: none;
+    }
+    .dumbel {
+        width: 30vw;
+    }
+    .top-left{
+        margin: auto;
+    }
+    .top-right {
+        width: initial;
+    }
 }
